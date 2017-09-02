@@ -1,0 +1,6 @@
+framework module Pods_Cloudnary {
+  umbrella header "Pods-Cloudnary-umbrella.h"
+
+  export *
+  module * { export * }
+}

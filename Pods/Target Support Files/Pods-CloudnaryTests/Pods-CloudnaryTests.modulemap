@@ -1,0 +1,6 @@
+framework module Pods_CloudnaryTests {
+  umbrella header "Pods-CloudnaryTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

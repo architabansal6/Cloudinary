@@ -1,0 +1,812 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09D99D1F02728C493005FC4D /* Pods_CloudnaryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AFBD885B68A453A282F2274 /* Pods_CloudnaryUITests.framework */; };
+		0B3BBF9559AADB190458709F /* Pods_CloudnaryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 541FEA72B45BD54AC9C18724 /* Pods_CloudnaryTests.framework */; };
+		0F7060EA1F5A8338005B9D0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7060E91F5A8338005B9D0C /* AppDelegate.swift */; };
+		0F7060EC1F5A8338005B9D0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7060EB1F5A8338005B9D0C /* ViewController.swift */; };
+		0F7060EF1F5A8338005B9D0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F7060ED1F5A8338005B9D0C /* Main.storyboard */; };
+		0F7060F21F5A8338005B9D0C /* Cloudnary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0F7060F01F5A8338005B9D0C /* Cloudnary.xcdatamodeld */; };
+		0F7060F41F5A8338005B9D0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F7060F31F5A8338005B9D0C /* Assets.xcassets */; };
+		0F7060F71F5A8338005B9D0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F7060F51F5A8338005B9D0C /* LaunchScreen.storyboard */; };
+		0F7061021F5A8338005B9D0C /* CloudnaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7061011F5A8338005B9D0C /* CloudnaryTests.swift */; };
+		0F70610D1F5A8338005B9D0C /* CloudnaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F70610C1F5A8338005B9D0C /* CloudnaryUITests.swift */; };
+		0F7061251F5A8615005B9D0C /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F70611B1F5A8615005B9D0C /* AppSettings.swift */; };
+		0F7061261F5A8615005B9D0C /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F70611D1F5A8615005B9D0C /* PhotoCollectionViewCell.swift */; };
+		0F70612C1F5A86D4005B9D0C /* CloudnaryHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F70612B1F5A86D4005B9D0C /* CloudnaryHelper.swift */; };
+		0F70612E1F5A8B57005B9D0C /* PhotosFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F70612D1F5A8B57005B9D0C /* PhotosFeedViewController.swift */; };
+		0F7061301F5A937F005B9D0C /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F70612F1F5A937F005B9D0C /* Utility.swift */; };
+		2645BD34DBF04F0093F04F54 /* Pods_Cloudnary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3C3F93B9BE58C7827A329AE /* Pods_Cloudnary.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F7060FE1F5A8338005B9D0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F7060DE1F5A8337005B9D0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F7060E51F5A8338005B9D0C;
+			remoteInfo = Cloudnary;
+		};
+		0F7061091F5A8338005B9D0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F7060DE1F5A8337005B9D0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F7060E51F5A8338005B9D0C;
+			remoteInfo = Cloudnary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06E5C63F97C05E007D61C477 /* Pods-CloudnaryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudnaryTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CloudnaryTests/Pods-CloudnaryTests.release.xcconfig"; sourceTree = "<group>"; };
+		0F7060E61F5A8338005B9D0C /* Cloudnary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cloudnary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F7060E91F5A8338005B9D0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0F7060EB1F5A8338005B9D0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0F7060EE1F5A8338005B9D0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0F7060F11F5A8338005B9D0C /* Cloudnary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cloudnary.xcdatamodel; sourceTree = "<group>"; };
+		0F7060F31F5A8338005B9D0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0F7060F61F5A8338005B9D0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0F7060F81F5A8338005B9D0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F7060FD1F5A8338005B9D0C /* CloudnaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudnaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F7061011F5A8338005B9D0C /* CloudnaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudnaryTests.swift; sourceTree = "<group>"; };
+		0F7061031F5A8338005B9D0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F7061081F5A8338005B9D0C /* CloudnaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudnaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F70610C1F5A8338005B9D0C /* CloudnaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudnaryUITests.swift; sourceTree = "<group>"; };
+		0F70610E1F5A8338005B9D0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F70611B1F5A8615005B9D0C /* AppSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		0F70611D1F5A8615005B9D0C /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		0F70612B1F5A86D4005B9D0C /* CloudnaryHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloudnaryHelper.swift; sourceTree = "<group>"; };
+		0F70612D1F5A8B57005B9D0C /* PhotosFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosFeedViewController.swift; sourceTree = "<group>"; };
+		0F70612F1F5A937F005B9D0C /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		3295D561FC12CD0A19287D10 /* Pods-Cloudnary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cloudnary.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cloudnary/Pods-Cloudnary.release.xcconfig"; sourceTree = "<group>"; };
+		541FEA72B45BD54AC9C18724 /* Pods_CloudnaryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CloudnaryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56E895B053DAEA715B111404 /* Pods-CloudnaryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudnaryTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CloudnaryTests/Pods-CloudnaryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		594F05D3DFEEF9DAEF58C53E /* Pods-Cloudnary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cloudnary.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cloudnary/Pods-Cloudnary.debug.xcconfig"; sourceTree = "<group>"; };
+		7AFBD885B68A453A282F2274 /* Pods_CloudnaryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CloudnaryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3C3F93B9BE58C7827A329AE /* Pods_Cloudnary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cloudnary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE0FE65262C20ED346DFE6E0 /* Pods-CloudnaryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudnaryUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CloudnaryUITests/Pods-CloudnaryUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F8890FECB625BAC1748D8A87 /* Pods-CloudnaryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudnaryUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CloudnaryUITests/Pods-CloudnaryUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F7060E31F5A8338005B9D0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2645BD34DBF04F0093F04F54 /* Pods_Cloudnary.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F7060FA1F5A8338005B9D0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B3BBF9559AADB190458709F /* Pods_CloudnaryTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F7061051F5A8338005B9D0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09D99D1F02728C493005FC4D /* Pods_CloudnaryUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F7060DD1F5A8337005B9D0C = {
+			isa = PBXGroup;
+			children = (
+				0F7060E81F5A8338005B9D0C /* Cloudnary */,
+				0F7061001F5A8338005B9D0C /* CloudnaryTests */,
+				0F70610B1F5A8338005B9D0C /* CloudnaryUITests */,
+				0F7060E71F5A8338005B9D0C /* Products */,
+				C3F7E156F7CCDFF9B279CACD /* Pods */,
+				7148A23F9303FA8DF49C17AF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0F7060E71F5A8338005B9D0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F7060E61F5A8338005B9D0C /* Cloudnary.app */,
+				0F7060FD1F5A8338005B9D0C /* CloudnaryTests.xctest */,
+				0F7061081F5A8338005B9D0C /* CloudnaryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F7060E81F5A8338005B9D0C /* Cloudnary */ = {
+			isa = PBXGroup;
+			children = (
+				0F70611A1F5A8615005B9D0C /* Application */,
+				0F70611C1F5A8615005B9D0C /* Controllers */,
+				0F70611F1F5A8615005B9D0C /* HelperClasses */,
+				0F7061231F5A8615005B9D0C /* Model */,
+				0F7061241F5A8615005B9D0C /* View */,
+				0F7060E91F5A8338005B9D0C /* AppDelegate.swift */,
+				0F7060EB1F5A8338005B9D0C /* ViewController.swift */,
+				0F7060ED1F5A8338005B9D0C /* Main.storyboard */,
+				0F7060F31F5A8338005B9D0C /* Assets.xcassets */,
+				0F7060F51F5A8338005B9D0C /* LaunchScreen.storyboard */,
+				0F7060F81F5A8338005B9D0C /* Info.plist */,
+				0F7060F01F5A8338005B9D0C /* Cloudnary.xcdatamodeld */,
+			);
+			path = Cloudnary;
+			sourceTree = "<group>";
+		};
+		0F7061001F5A8338005B9D0C /* CloudnaryTests */ = {
+			isa = PBXGroup;
+			children = (
+				0F7061011F5A8338005B9D0C /* CloudnaryTests.swift */,
+				0F7061031F5A8338005B9D0C /* Info.plist */,
+			);
+			path = CloudnaryTests;
+			sourceTree = "<group>";
+		};
+		0F70610B1F5A8338005B9D0C /* CloudnaryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0F70610C1F5A8338005B9D0C /* CloudnaryUITests.swift */,
+				0F70610E1F5A8338005B9D0C /* Info.plist */,
+			);
+			path = CloudnaryUITests;
+			sourceTree = "<group>";
+		};
+		0F70611A1F5A8615005B9D0C /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				0F70611B1F5A8615005B9D0C /* AppSettings.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		0F70611C1F5A8615005B9D0C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0F70611D1F5A8615005B9D0C /* PhotoCollectionViewCell.swift */,
+				0F70612D1F5A8B57005B9D0C /* PhotosFeedViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0F70611F1F5A8615005B9D0C /* HelperClasses */ = {
+			isa = PBXGroup;
+			children = (
+				0F70612B1F5A86D4005B9D0C /* CloudnaryHelper.swift */,
+				0F70612F1F5A937F005B9D0C /* Utility.swift */,
+			);
+			path = HelperClasses;
+			sourceTree = "<group>";
+		};
+		0F7061231F5A8615005B9D0C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0F7061241F5A8615005B9D0C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7148A23F9303FA8DF49C17AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3C3F93B9BE58C7827A329AE /* Pods_Cloudnary.framework */,
+				541FEA72B45BD54AC9C18724 /* Pods_CloudnaryTests.framework */,
+				7AFBD885B68A453A282F2274 /* Pods_CloudnaryUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3F7E156F7CCDFF9B279CACD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				594F05D3DFEEF9DAEF58C53E /* Pods-Cloudnary.debug.xcconfig */,
+				3295D561FC12CD0A19287D10 /* Pods-Cloudnary.release.xcconfig */,
+				56E895B053DAEA715B111404 /* Pods-CloudnaryTests.debug.xcconfig */,
+				06E5C63F97C05E007D61C477 /* Pods-CloudnaryTests.release.xcconfig */,
+				BE0FE65262C20ED346DFE6E0 /* Pods-CloudnaryUITests.debug.xcconfig */,
+				F8890FECB625BAC1748D8A87 /* Pods-CloudnaryUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F7060E51F5A8338005B9D0C /* Cloudnary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F7061111F5A8338005B9D0C /* Build configuration list for PBXNativeTarget "Cloudnary" */;
+			buildPhases = (
+				9637F6F3F59CC3EAF9078639 /* [CP] Check Pods Manifest.lock */,
+				0F7060E21F5A8338005B9D0C /* Sources */,
+				0F7060E31F5A8338005B9D0C /* Frameworks */,
+				0F7060E41F5A8338005B9D0C /* Resources */,
+				14AE0B67A3CC5EC4575E62F8 /* [CP] Embed Pods Frameworks */,
+				B65B84F989C7750844D245DE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cloudnary;
+			productName = Cloudnary;
+			productReference = 0F7060E61F5A8338005B9D0C /* Cloudnary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0F7060FC1F5A8338005B9D0C /* CloudnaryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F7061141F5A8338005B9D0C /* Build configuration list for PBXNativeTarget "CloudnaryTests" */;
+			buildPhases = (
+				5E9EEEACC85A5BE3E798E2D8 /* [CP] Check Pods Manifest.lock */,
+				0F7060F91F5A8338005B9D0C /* Sources */,
+				0F7060FA1F5A8338005B9D0C /* Frameworks */,
+				0F7060FB1F5A8338005B9D0C /* Resources */,
+				8FDF6D6552390F7DB440C2B8 /* [CP] Embed Pods Frameworks */,
+				F590596802BF24070EC1958C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F7060FF1F5A8338005B9D0C /* PBXTargetDependency */,
+			);
+			name = CloudnaryTests;
+			productName = CloudnaryTests;
+			productReference = 0F7060FD1F5A8338005B9D0C /* CloudnaryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0F7061071F5A8338005B9D0C /* CloudnaryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F7061171F5A8338005B9D0C /* Build configuration list for PBXNativeTarget "CloudnaryUITests" */;
+			buildPhases = (
+				D5CDE42EF6E512BF24CBCCA0 /* [CP] Check Pods Manifest.lock */,
+				0F7061041F5A8338005B9D0C /* Sources */,
+				0F7061051F5A8338005B9D0C /* Frameworks */,
+				0F7061061F5A8338005B9D0C /* Resources */,
+				60809D2F31E9CC926483E162 /* [CP] Embed Pods Frameworks */,
+				AB86FC8746F1FE3E52BD0971 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F70610A1F5A8338005B9D0C /* PBXTargetDependency */,
+			);
+			name = CloudnaryUITests;
+			productName = CloudnaryUITests;
+			productReference = 0F7061081F5A8338005B9D0C /* CloudnaryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F7060DE1F5A8337005B9D0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = archita;
+				TargetAttributes = {
+					0F7060E51F5A8338005B9D0C = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 87PC6MKP7J;
+						ProvisioningStyle = Automatic;
+					};
+					0F7060FC1F5A8338005B9D0C = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 87PC6MKP7J;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0F7060E51F5A8338005B9D0C;
+					};
+					0F7061071F5A8338005B9D0C = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 87PC6MKP7J;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0F7060E51F5A8338005B9D0C;
+					};
+				};
+			};
+			buildConfigurationList = 0F7060E11F5A8337005B9D0C /* Build configuration list for PBXProject "Cloudnary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0F7060DD1F5A8337005B9D0C;
+			productRefGroup = 0F7060E71F5A8338005B9D0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F7060E51F5A8338005B9D0C /* Cloudnary */,
+				0F7060FC1F5A8338005B9D0C /* CloudnaryTests */,
+				0F7061071F5A8338005B9D0C /* CloudnaryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F7060E41F5A8338005B9D0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F7060F71F5A8338005B9D0C /* LaunchScreen.storyboard in Resources */,
+				0F7060F41F5A8338005B9D0C /* Assets.xcassets in Resources */,
+				0F7060EF1F5A8338005B9D0C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F7060FB1F5A8338005B9D0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F7061061F5A8338005B9D0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14AE0B67A3CC5EC4575E62F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cloudnary/Pods-Cloudnary-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E9EEEACC85A5BE3E798E2D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		60809D2F31E9CC926483E162 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CloudnaryUITests/Pods-CloudnaryUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FDF6D6552390F7DB440C2B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CloudnaryTests/Pods-CloudnaryTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9637F6F3F59CC3EAF9078639 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AB86FC8746F1FE3E52BD0971 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CloudnaryUITests/Pods-CloudnaryUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B65B84F989C7750844D245DE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cloudnary/Pods-Cloudnary-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5CDE42EF6E512BF24CBCCA0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F590596802BF24070EC1958C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CloudnaryTests/Pods-CloudnaryTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F7060E21F5A8338005B9D0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F7060EC1F5A8338005B9D0C /* ViewController.swift in Sources */,
+				0F7061261F5A8615005B9D0C /* PhotoCollectionViewCell.swift in Sources */,
+				0F7061301F5A937F005B9D0C /* Utility.swift in Sources */,
+				0F70612E1F5A8B57005B9D0C /* PhotosFeedViewController.swift in Sources */,
+				0F7060EA1F5A8338005B9D0C /* AppDelegate.swift in Sources */,
+				0F7061251F5A8615005B9D0C /* AppSettings.swift in Sources */,
+				0F70612C1F5A86D4005B9D0C /* CloudnaryHelper.swift in Sources */,
+				0F7060F21F5A8338005B9D0C /* Cloudnary.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F7060F91F5A8338005B9D0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F7061021F5A8338005B9D0C /* CloudnaryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F7061041F5A8338005B9D0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F70610D1F5A8338005B9D0C /* CloudnaryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F7060FF1F5A8338005B9D0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F7060E51F5A8338005B9D0C /* Cloudnary */;
+			targetProxy = 0F7060FE1F5A8338005B9D0C /* PBXContainerItemProxy */;
+		};
+		0F70610A1F5A8338005B9D0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F7060E51F5A8338005B9D0C /* Cloudnary */;
+			targetProxy = 0F7061091F5A8338005B9D0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0F7060ED1F5A8338005B9D0C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F7060EE1F5A8338005B9D0C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0F7060F51F5A8338005B9D0C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F7060F61F5A8338005B9D0C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F70610F1F5A8338005B9D0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0F7061101F5A8338005B9D0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F7061121F5A8338005B9D0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 594F05D3DFEEF9DAEF58C53E /* Pods-Cloudnary.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 87PC6MKP7J;
+				INFOPLIST_FILE = Cloudnary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.archita.Cloudnary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0F7061131F5A8338005B9D0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3295D561FC12CD0A19287D10 /* Pods-Cloudnary.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 87PC6MKP7J;
+				INFOPLIST_FILE = Cloudnary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.archita.Cloudnary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		0F7061151F5A8338005B9D0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56E895B053DAEA715B111404 /* Pods-CloudnaryTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 87PC6MKP7J;
+				INFOPLIST_FILE = CloudnaryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.archita.CloudnaryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cloudnary.app/Cloudnary";
+			};
+			name = Debug;
+		};
+		0F7061161F5A8338005B9D0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06E5C63F97C05E007D61C477 /* Pods-CloudnaryTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 87PC6MKP7J;
+				INFOPLIST_FILE = CloudnaryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.archita.CloudnaryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cloudnary.app/Cloudnary";
+			};
+			name = Release;
+		};
+		0F7061181F5A8338005B9D0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE0FE65262C20ED346DFE6E0 /* Pods-CloudnaryUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 87PC6MKP7J;
+				INFOPLIST_FILE = CloudnaryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.archita.CloudnaryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Cloudnary;
+			};
+			name = Debug;
+		};
+		0F7061191F5A8338005B9D0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8890FECB625BAC1748D8A87 /* Pods-CloudnaryUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 87PC6MKP7J;
+				INFOPLIST_FILE = CloudnaryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.archita.CloudnaryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Cloudnary;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F7060E11F5A8337005B9D0C /* Build configuration list for PBXProject "Cloudnary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F70610F1F5A8338005B9D0C /* Debug */,
+				0F7061101F5A8338005B9D0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F7061111F5A8338005B9D0C /* Build configuration list for PBXNativeTarget "Cloudnary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F7061121F5A8338005B9D0C /* Debug */,
+				0F7061131F5A8338005B9D0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F7061141F5A8338005B9D0C /* Build configuration list for PBXNativeTarget "CloudnaryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F7061151F5A8338005B9D0C /* Debug */,
+				0F7061161F5A8338005B9D0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F7061171F5A8338005B9D0C /* Build configuration list for PBXNativeTarget "CloudnaryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F7061181F5A8338005B9D0C /* Debug */,
+				0F7061191F5A8338005B9D0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0F7060F01F5A8338005B9D0C /* Cloudnary.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0F7060F11F5A8338005B9D0C /* Cloudnary.xcdatamodel */,
+			);
+			currentVersion = 0F7060F11F5A8338005B9D0C /* Cloudnary.xcdatamodel */;
+			path = Cloudnary.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0F7060DE1F5A8337005B9D0C /* Project object */;
+}
